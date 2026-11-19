@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "proteosim"
+version = "0.1.0"
+description = "A Python package for simulating a bottom-up proteomics workflow: protein digestion, LC retention time prediction, and MS1/MS2 spectra simulation."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Sophie Ginthoer", email = "hg299@stud.uni-heidelberg.de" }
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "pyteomics",
+]
+
+[tool.setuptools.packages.find]
+include = ["proteosim*"]
