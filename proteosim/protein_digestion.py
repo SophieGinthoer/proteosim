@@ -7,8 +7,6 @@ enzyme_cleavage_patterns = {
     'Trypsin': r'(?<=[KR])(?!P)',
 }
 
-enzyme_cleavage_patterns
-
 
 
 def digest_protein_sequence(protein_seq, cleave_pattern, min_pep_len=5, max_pep_len=30):
