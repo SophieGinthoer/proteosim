@@ -31,7 +31,7 @@ pip install -r requirements.txt
 pip install .
 ```
 
-Requires Python 3.9 or newer.
+Requires Python 3.10 or newer.
 
 
 ## Modules & functions
