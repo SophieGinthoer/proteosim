@@ -123,6 +123,3 @@ def fragment_peptide(peptide):
     b_ions = [peptide[:i] for i in range(1, len(peptide))]
     y_ions = [peptide[i:] for i in range(len(peptide)-1, 0, -1)]
     return b_ions + y_ions
-
-
-
